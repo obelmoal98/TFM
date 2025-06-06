@@ -28,7 +28,7 @@ El sistema se divide en dos componentes principales, implementados en distintos 
     * Devuelve una imagen base64 con los elementos detectados y etiquetados numéricamente, junto con una lista JSON de bounding boxes (coordenadas, contenido, tipo de interactividad).
     * Se utiliza `ngrok` para exponer este servidor FastAPI local a internet, haciéndolo accesible para el cuaderno del agente.
 
-2.  **Agente GPT-4o con LangGraph (`OmniParser_+_GPT_4o (1).ipynb`):**
+2.  **Agente GPT-4o con LangGraph (`OmniParser_+_GPT_4o.ipynb`):**
     * El agente se inicializa con una instancia del navegador Playwright y una URL de destino.
     * Se proporciona una tarea de alto nivel al agente (ej. "Rellena este formulario con estos datos").
     * **Percepción:**
